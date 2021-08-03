@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+{
+margin: 0 auto;
+padding: 0;
+box-sizing: border-box;
+font-family: Montserrat;
+}
+#menu-h{
+    background-color: white;
+    
+}
+#menu-h ul {
+   list-style: none;
+   padding: 0;
+   max-width: 800px;
+}
+#menu-h ul li{
+    display: inline;
+}
+#menu-h ul li a {
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+#menu-h ul li a:hover{
+    background-color: rgb(24, 139, 233);
+}
+#munu-h ul li a:hover {
+    float:right;
+    background-color: rgb(24, 139, 233);
+}
+body {
+    background-color: #292929;
+    color: white;
+    font-family: montserrat;
+}
+.btn{
+    font-family: Montserrat;
+    font-size:10px;
+    font-weight:700;
+    text-transform: uppercase;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+    display:inline-block;
+    text-decoration: none;
+  }
+  .btn-green{
+    background:green;
+    color:#fff;
+    box-shadow:0 5px 0 #006000;
+  }
+  .btn-green:hover{
+    background:#006000;
+    box-shadow:0 5px 0 #003f00;
+  }
+  .btn-green:active{
+    position:relative;
+    top:5px;
+    box-shadow:none;
+  }
+  .redes-sociais ul li {
+    margin-left: 25px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+    }
+  .redes-sociais {
+   width: 25%;
+   float: right;
+    }
+    .tubo{
+    float:right;
+    width: 65%;
+    margin-top: 110px;
+    }
+    .info {
+      float:right;
+      width: 68%;
+      margin-top: 11px;
+      font-family: montserrat;
+    }
+    .down{
+      float:right;
+      width: 100%;
+      margin-top: 100px;
+      color:black;
+      background-color: white;
+      text-align: center;
+      font-family: montserrat;
+    }
+    .zap {
+      margin-left: 95px;
+      display: inline-block;
+      float: left;
+      list-style: none;  
+      font-family: montserrat;
+    }
+    .zap {
+    width: 100%;
+    float: right;
+    background-color: #292929;
+    text-align: center;
+    }
+    .redes-sociais{
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    font-family: montserrat;
+    }
+
+    .rede-sociais ul {
+      list-style: none;
+      padding: 0;
+      max-width: 800px;
+   }
+   .redes-sociais ul li{
+       display: inline;
+   }
+
+    .redes-sociais ul li a:hover{
+      background-color: rgb(24, 139, 233);
+  }
+  .redes-sociais ul li a:hover {
+    float: right;
+    background-color: rgb(24, 139, 233);
+  }
+ .zap, p{
+   display: inline-block; 
+  }
+  .tubo{
+    margin-inline: 100px;
+  }
+  
+   .card .user{
+     width: 100px;
+     margin-top: 15px;
+     
+   }  
+   .star{
+     width:15px;
+   }
+    
+    
