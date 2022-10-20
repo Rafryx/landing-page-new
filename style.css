@@ -108,7 +108,7 @@ del {
 
 
 
-.down{
+.titulo-empresa{
   float:right;
   width: 100%;
   margin-top: 100px;
@@ -127,11 +127,64 @@ del {
   text-align: center;
 }
 
-.card .user{
- width: 100px;
- margin-top: 15px;
-}  
 
-.star{
- width:15px;
+
+
+
+
+main.cards {
+  display: flex;
+  padding: 32px;
 }
+
+main.cards section.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #eee;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  max-height: 468px;
+  margin-left: 32px;
+}
+
+main.cards section.card .icon {
+  width: 64px;
+  height: 64px;
+}
+
+main.cards section.card img {
+  width: 100%;
+}
+
+main.cards section.card h3 {
+  font-size: 100%;
+  margin: 16px 0;
+}
+
+.card .stars {
+  width: 15px;
+  display: flex;
+}
+
+@media screen and (max-width: 720px) {
+  main.cards {
+      flex-direction: column;
+  }
+
+  main.cards section.card {
+      margin-left: 0;
+      margin-bottom: 32px;
+  }
+
+  main.cards section.card:last-child {
+      margin-bottom: 0;
+  }
+
+  main.cards section.card button {
+      font-size: 70%;
+  }
+
+}
+
