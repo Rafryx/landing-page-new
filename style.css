@@ -33,7 +33,7 @@ ul li a{
 }
 
 li a:hover{
-  color: green;
+  color: black;
 }
 
 .logo{
@@ -47,9 +47,16 @@ li a:hover{
     transform: rotateZ(60deg);
 }
 
-.informacoes-tubo{
+section .cards {
+  width: 500px;
+  border: 5px solid black;
+  width: 800px;
+  background-color: red;
+}
+
+section .informacoes-tubo{
   background-color: #292929;
-  height: 700px;
+  height: 800px;
 }
 
 .tubo{
@@ -105,36 +112,27 @@ del {
 /* Botão de compra fim */
 
 
-
-
-
 .titulo-empresa{
   float:right;
   width: 100%;
-  margin-top: 100px;
   color:black;
   background-color: white;
-  text-align: center;
-}
-
-.zap {
-  margin-left: 95px;
-  display: inline-block;
-  list-style: none;  
   font-family: 'Montserrat', sans-serif;
-  width: 100%;
-  background-color: #292929;
   text-align: center;
+  height: 350px;
 }
 
+/*cards comentarios inicio*/
 
-
-
-
+.comentarios {
+ text-align: center;
+ color: #ffc107;
+}
 
 main.cards {
   display: flex;
   padding: 32px;
+  justify-content: center;
 }
 
 main.cards section.card {
@@ -147,6 +145,7 @@ main.cards section.card {
   border-radius: 8px;
   max-height: 468px;
   margin-left: 32px;
+  margin-top: 150px;
 }
 
 main.cards section.card .icon {
@@ -166,7 +165,83 @@ main.cards section.card h3 {
 .card .stars {
   width: 15px;
   display: flex;
+  justify-content: center;
+
 }
+
+/*cards comentarios fim*/
+
+#back-to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  padding: 20px;
+  box-shadow: 2px -2px 0 1px #000 inset;
+  border: solid transparent;
+  border-width: 0 0 2px 2px;
+  transform: rotate(135deg);
+}
+
+
+footer{
+  background-color: #292929;
+  height: 400px;
+ 
+}
+
+footer .contatos{
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#contatos {
+    display: flex;
+    justify-content: center;
+    line-height: 200px;
+}
+
+.redes-sociais ul li{
+  list-style: none;
+  text-decoration: none;
+}
+
+.bi-whatsapp{
+  width: 50px;
+  height: 50px;
+  color: #4aae20;
+}
+
+.bi-instagram{
+  width: 50px;
+  height: 50px;
+  color: #8b47bf;
+  margin-left: 20px;
+}
+
+.bi-facebook{
+  width: 50px;
+  height: 50px;
+  color: #0e7ce3;
+  margin-left: 20px;
+}
+
+.bi-telephone-fill{
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.bi-twitter{
+  width: 50px;
+  height: 50px;
+  color:#2aa2d9;
+}
+
+
+
+/*Cometarios cards responsivo*/
 
 @media screen and (max-width: 720px) {
   main.cards {
@@ -187,4 +262,3 @@ main.cards section.card h3 {
   }
 
 }
-
