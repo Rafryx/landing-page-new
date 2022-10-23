@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  background-color: silver;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: silver;
+  height: 19vh;
+}
+
+ul li{
+  list-style: none;
+  letter-spacing: 3px;
+  margin-left: 32px;
+  display: inline-block;
+  
+}
+
+ul li a{
+  font-size: 18px;
+  text-decoration: none;
+  color: #1136ff;
+  display: flex;
+}
+
+li a:hover{
+  color: black;
+}
+
+.logo{
+  transition: all 1s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logo:hover{
+  -webkit-transform: rotateZ(60deg);
+    transform: rotateZ(60deg);
+}
+
+section .cards {
+  width: 500px;
+  border: 5px solid black;
+  width: 800px;
+  background-color: red;
+}
+
+section .informacoes-tubo{
+  background-color: #292929;
+  height: 800px;
+}
+
+.tubo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.informacoes{
+  width: 260px;
+  margin-top: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  border: 2px solid #1f43ff;
+  padding: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  background-color: black;
+}
+
+del {
+  color: red;
+}
+
+/* Botão de compra inicio */
+.btn{
+  font-family: 'Montserrat', sans-serif;
+  font-size:10px;
+  font-weight:700;
+  text-transform: uppercase;
+  border:none;
+  padding:10px;
+  cursor: pointer;
+  display:inline-block;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-green{
+  background:green;
+  color:#fff;
+  box-shadow:0 5px 0 #006000;
+  border-radius: 5px;
+}
+
+.btn-green:hover{
+  background:#006000;
+  box-shadow:0 5px 0 #003f00;
+}
+
+.btn-green:active{
+  position:relative;
+  top:5px;
+  box-shadow:none;
+}
+/* Botão de compra fim */
+
+
+.titulo-empresa{
+  float:right;
+  width: 100%;
+  color:black;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  height: 350px;
+}
+
+/*cards comentarios inicio*/
+
+.comentarios {
+ text-align: center;
+ color: #ffc107;
+}
+
+main.cards {
+  display: flex;
+  padding: 32px;
+  justify-content: center;
+}
+
+main.cards section.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #eee;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  max-height: 468px;
+  margin-left: 32px;
+  margin-bottom: 80px;
+}
+
+main.cards section.card .icon {
+  width: 64px;
+  height: 64px;
+}
+
+main.cards section.card img {
+  width: 100%;
+}
+
+main.cards section.card h3 {
+  font-size: 100%;
+  margin: 16px 0;
+}
+
+.card .stars {
+  width: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+/*cards comentarios fim*/
+
+.bi-arrow-up-square {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+.bi-arrow-up-square {
+  width: 50px;
+  height: 50px;
+  color: red;
+}
+
+footer{
+  background-color: #292929;
+  height: 420px;
+}
+
+footer .contatos{
+  color: white;
+  text-align: center;
+  line-height: 120px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#contatos {
+    display: flex;
+    justify-content: center;
+    line-height: 200px;
+}
+
+.redes-sociais ul li{
+  list-style: none;
+}
+
+.redes-sociais li a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bi-whatsapp{
+  width: 50px;
+  height: 50px;
+  color: #4aae20;
+  margin-bottom: 150px;
+}
+
+.bi-instagram{
+  width: 50px;
+  height: 50px;
+  color: #8b47bf;
+  margin-left: 20px;
+  margin-bottom: 150px;
+}
+
+.bi-facebook{
+  width: 50px;
+  height: 50px;
+  color: #0e7ce3;
+  margin-left: 20px;
+  margin-bottom: 150px;
+}
+
+.bi-telephone-fill{
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+  margin-left: 20px;
+  margin-bottom: 150px;
+}
+
+.bi-twitter{
+  width: 50px;
+  height: 50px;
+  color:#2aa2d9;
+  margin-bottom: 150px;
+}
+
+.direitos-reservados {
+  color: white;
+  display: flex;
+  line-height: 270px;
+  position: absolute;
+  text-align: center;
+}
+
+/*Cometarios cards responsivo*/
+
+@media screen and (max-width: 720px) {
+  main.cards {
+      flex-direction: column;
+  }
+
+  main.cards section.card {
+      margin-left: 0;
+      margin-bottom: 32px;
+  }
+
+  main.cards section.card:last-child {
+      margin-bottom: 0;
+  }
+
+  main.cards section.card button {
+      font-size: 70%;
+  }
+
+}
